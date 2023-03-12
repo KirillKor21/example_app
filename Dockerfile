@@ -9,4 +9,4 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 RUN pip3 install -r requirements.txt
 
-CMD ["python", "my_app.py"]
+CMD ["python3", "my_app.py"]
